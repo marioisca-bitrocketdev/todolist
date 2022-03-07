@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/70a13d7a26.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ToDo-List</title>
-</head>
-<body>
-    <h1>Ciaone</h1>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <header>
+          <div class="containerUp">
+            <img class="logo" src="/bitrocketLogo.png" alt="" />
+            <h1 class="label">BitRocket ToDoList</h1>
+          </div>
+
+          <nav>
+            <input placeholder="Task" />
+            <div class="select">
+              <select>
+                <option value="1">Assegnato</option>
+                <option value="2">Mario</option>
+                <option value="4">Giorgio</option>
+                <option value="5">Riccardo</option>
+                <option value="6">Gabriele</option>
+                <option value="6">Roberto</option>
+              </select>
+            </div>
+            <div class="select">
+              <select>
+                <option value="1">Priorità</option>
+                <option value="2">Bassa</option>
+                <option value="4">Medio</option>
+                <option value="5">Alta</option>
+              </select>
+            </div>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </body>
 </html>
