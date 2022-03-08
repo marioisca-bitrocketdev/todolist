@@ -108,3 +108,65 @@ a {
   text-decoration: none;
   background: white;
 }
+
+/* Table */
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #cc3333;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.icon{
+  font-size: 14px;
+  margin: 5px;
+}
+
+.icon_pen{
+  color: grey;
+}
+
+.icon_circle_green{
+  color: green;
+}
+
+.icon_circle_yellow{
+  color: yellow;
+}
+
+.icon_circle_red{
+  color: #cc3333;
+}
+
+.icon_check{
+  color: gray;
+  font-size: 18px;
+}
+
+.icon_check_completed{
+  color: green;
+}
